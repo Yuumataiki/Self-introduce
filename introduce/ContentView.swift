@@ -19,7 +19,6 @@ struct ContentView: View {
             Text("栃木").font(.title).foregroundColor(Color.green).tabItem { Text("出身") }.tag(4)
             VStack{
                 Text("ゲーム").font(.title).foregroundColor(Color.gray)
-                Text("モンハン")
             }.tabItem{ Text("趣味") }.tag(5)
         }
     }
